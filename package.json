@@ -1,0 +1,19 @@
+{
+  "name": "taskmanagerapi",
+  "version": "1.0.0",
+  "description": "taskmanagerapiv1.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisahmar7/TaskManagerApi.git"
+  },
+  "author": "harisahmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisahmar7/TaskManagerApi/issues"
+  },
+  "homepage": "https://github.com/harisahmar7/TaskManagerApi#readme"
+}
