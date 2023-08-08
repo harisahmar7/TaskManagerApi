@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/harisahmar7/TaskManagerApi/issues"
   },
-  "homepage": "https://github.com/harisahmar7/TaskManagerApi#readme"
+  "homepage": "https://github.com/harisahmar7/TaskManagerApi#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.2",
+    "pg-pool": "^3.6.1"
+  }
 }
