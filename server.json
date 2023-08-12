@@ -1,0 +1,6 @@
+{
+	"apps":{
+		"script": "app.js",
+		"watch": true
+	}
+}
