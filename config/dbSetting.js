@@ -1,19 +1,28 @@
 const Pool = require('pg-pool');
+require('dotenv').config();
 
-const pool = new Pool({
-    host:"localhost",
-    port: 5432,
-    user: "postgres",
-    password:"admin"
+function dbConnection(){
+
+    const pool = new Pool({
+    host:process.env.PG_HOST,
+    port: process.env.PG_PORT,
+    user: process.env.PG_USER_NAME,
+    password:process.env.PG_PASSWORD
 })
-
-pool.connect((err, result)=>{
+    pool.connect((err, result)=>{
     if(err){
         console.log(err)
     }
-    console.log("Database is connected...!");
 })
+    return pool;
+
+}
 
 
 
-module.exports={pool}
+
+
+
+
+
+module.exports={dbConnection}

@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "TaskManagerApi",
+            "script": "app.js",
+            "watch": true
+        }
+    ]
+}
