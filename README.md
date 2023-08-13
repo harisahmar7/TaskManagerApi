@@ -1,6 +1,6 @@
 # TASK MANAGER API
 
-**To Run the Task Manager API please run below command on the terminal on root folder of the project.**
+**To Run the Task Manager API please follow the given step.**
 
 1.npm install [run on the terminal root foalder of the project to install npm[node package manager] packages].
 
